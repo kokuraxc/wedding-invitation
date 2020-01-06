@@ -1,0 +1,6 @@
+<!--pages/wxml/index.wxml-->
+<text>Hello World again!</text>
+<view>
+<text>TEST</text>
+</view>
+<image class="userinfo-avatar" src="./image/notion.png"></image>
