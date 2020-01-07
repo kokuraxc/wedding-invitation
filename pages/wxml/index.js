@@ -5,7 +5,11 @@ Page({
    * Page initial data
    */
   data: {
-
+    time: (new Date()).toString(),
+    var2: undefined,
+    var3: null,
+    var4: "var4",
+    a: "10",
   },
 
   /**

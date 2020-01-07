@@ -3,4 +3,10 @@
 <view>
 <text>TEST</text>
 </view>
-<image class="userinfo-avatar" src="./image/notion.png"></image>
+<!-- <image class="userinfo-avatar" src="./image/notion.png"></image> -->
+<view>{{var1}}</view>
+<view>{{var2}}</view>
+<view>{{var3}}</view>
+<view>{{var4}}</view>
+<text>当前时间：{{time}}</text>
+<text>{{a == 10 ? "variable a equals to 10" : "variable a not equals to 10"}}</text>
