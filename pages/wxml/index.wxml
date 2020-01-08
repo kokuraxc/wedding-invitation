@@ -48,3 +48,6 @@
 <block wx:for="{{[1, 2, 3, 4, 5]}}">
   <template is="{{item % 2 == 0 ? 'even' : 'odd'}}"></template>
 </block>
+
+<import src="item.wxml" />
+<template is="item" data="{{text: 'forbar'}}"></template>
