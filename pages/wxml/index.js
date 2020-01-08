@@ -16,6 +16,11 @@ Page({
       message: 'bar',
     },
     ],
+    item: {
+      index: 0,
+      msg: 'this is a template',
+      time: '2016-06-18'
+    },
 
     objectArray: [
       { id: 5, unique: 'unique_5'},

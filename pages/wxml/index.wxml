@@ -27,3 +27,12 @@
 
 <switch wx:for="{{numberArray}}" wx:key="*this">{{item}} </switch>
 <button bindtap="addNumberToFront">Add number to the front</button>
+
+<template name="msgItem">
+  <view>
+    <text>{{index}}: {{msg}} </text>
+    <text> Time: {{time}} </text>
+  </view>
+</template>
+
+<template is="msgItem" data="{{...item}}"></template>
