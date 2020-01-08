@@ -1,3 +1,5 @@
+<include src="header.wxml" />
+
 <!--pages/wxml/index.wxml-->
 <text>Hello World again!</text>
 <view>
@@ -51,3 +53,5 @@
 
 <import src="item.wxml" />
 <template is="item" data="{{text: 'forbar'}}"></template>
+
+<include src="footer.wxml" />
